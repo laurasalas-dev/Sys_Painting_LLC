@@ -172,7 +172,7 @@
             <h2>CONTACT US</h2>
 
             <div class="contact-container">
-                <form class="contact-form">
+                <form class="contact-form" <form action="https://formsubmit.co/salaschavezlaura@gmail.com" method="POST" />
                     <label for="service">Type of Service</label>
                     <select id="service" name="service" required>
                         <option value="">-- Select a Service --</option>
@@ -197,6 +197,9 @@
                     <textarea id="message" name="message" rows="4"></textarea>
 
                     <button type="submit" class="btn-primary">Request Your Estimate</button>
+
+                    <input type="hidden" name="_next" value="https://laurasalas-dev.github.io/Sys_Painting_LLC/#contact">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
 
                 <div class="contact-info">
